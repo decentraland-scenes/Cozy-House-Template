@@ -1591,7 +1591,7 @@
         "serializationType": "map"
       },
       "data": {
-        "0": {
+        "541": {
           "json": {
             "gizmo": 0
           }
@@ -3492,8 +3492,7 @@
                     "inspector::CustomAsset",
                     "asset-packs::AdminTools",
                     "asset-packs::Rewards",
-                    "asset-packs::VideoScreen",
-                    "inspector::UIState"
+                    "asset-packs::VideoScreen"
                   ],
                   "default": "asset-packs::Actions",
                   "serializationType": "enum-string",
@@ -3534,8 +3533,7 @@
                     "CustomAsset": "inspector::CustomAsset",
                     "AdminTools": "asset-packs::AdminTools",
                     "Rewards": "asset-packs::Rewards",
-                    "VideoScreen": "asset-packs::VideoScreen",
-                    "InspectorUIState": "inspector::UIState"
+                    "VideoScreen": "asset-packs::VideoScreen"
                   }
                 },
                 "layout": {
