@@ -5,7 +5,7 @@
     "title": "Cozy House Template DCL",
     "description": "Cozy House Template",
     "favicon": "favicon_asset",
-    "navmapThumbnail": "assets/scene/Images/sketch_cozy_house_4.jpg"
+    "navmapThumbnail": "assets/scene/Images/cozy_house_template.jpeg"
   },
   "owner": "",
   "contact": {
@@ -13,16 +13,9 @@
     "email": "impossible.studio.contact@gmail.com"
   },
   "main": "bin/index.js",
-  "tags": [
-    "social"
-  ],
+  "tags": ["social"],
   "scene": {
-    "parcels": [
-      "0,1",
-      "1,1",
-      "0,0",
-      "1,0"
-    ],
+    "parcels": ["0,1", "1,1", "0,0", "1,0"],
     "base": "0,0"
   },
   "spawnPoints": [
@@ -30,18 +23,9 @@
       "name": "Spawn Point 1",
       "default": true,
       "position": {
-        "x": [
-          8,
-          11
-        ],
-        "y": [
-          0,
-          0
-        ],
-        "z": [
-          25,
-          28
-        ]
+        "x": [8, 11],
+        "y": [0, 0],
+        "z": [25, 28]
       },
       "cameraTarget": {
         "x": 8,
@@ -50,10 +34,7 @@
       }
     }
   ],
-  "requiredPermissions": [
-    "ALLOW_TO_TRIGGER_AVATAR_EMOTE",
-    "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"
-  ],
+  "requiredPermissions": ["ALLOW_TO_TRIGGER_AVATAR_EMOTE", "ALLOW_TO_MOVE_PLAYER_INSIDE_SCENE"],
   "featureToggles": {
     "voiceChat": "enabled",
     "portableExperiences": "enabled"
